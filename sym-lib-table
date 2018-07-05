@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri C:/repos/ESP32Controller/esp32controller/library/ESP32-footprints-Shem-Lib.lib)(options "")(descr ""))
+  (lib (name esp32controller-rescue)(type Legacy)(uri ${KIPRJMOD}/esp32controller-rescue.lib)(options "")(descr ""))
+  (lib (name ESP32Controller)(type Legacy)(uri C:/repos/ESP32Controller/esp32controller/library/ESP32Controller.lib)(options "")(descr ""))
+)

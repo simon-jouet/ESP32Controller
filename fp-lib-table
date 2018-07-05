@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ESP32-footprints-Lib)(type KiCad)(uri "$(KIPRJMOD)/modules/ESP32-footprints-Lib.pretty")(options "")(descr ""))
+  (lib (name ESP32Controller)(type KiCad)(uri "$(KIPRJMOD)/modules/ESP32Controller.pretty")(options "")(descr ""))
+)
