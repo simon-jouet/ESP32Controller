@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:esp32controller-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -172,7 +172,7 @@ F 1 "Conn_02x03_Odd_Even" H 1050 10376 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 1000 10150 50  0001 C CNN
 F 3 "~" H 1000 10150 50  0001 C CNN
 	1    1000 10150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	1300 10050 1350 10050
@@ -360,7 +360,7 @@ F 1 "Conn_02x03_Odd_Even" H 3200 10376 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3150 10150 50  0001 C CNN
 F 3 "~" H 3150 10150 50  0001 C CNN
 	1    3150 10150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3450 10050 3500 10050
@@ -508,7 +508,7 @@ F 1 "Conn_02x03_Odd_Even" H 5350 10376 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5300 10150 50  0001 C CNN
 F 3 "~" H 5300 10150 50  0001 C CNN
 	1    5300 10150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5600 10050 5650 10050
@@ -669,7 +669,7 @@ F 1 "Conn_02x03_Odd_Even" H 7550 10376 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7500 10150 50  0001 C CNN
 F 3 "~" H 7500 10150 50  0001 C CNN
 	1    7500 10150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	7800 10050 7850 10050
@@ -2755,8 +2755,6 @@ F 3 "" H 7200 1650 50  0001 C CNN
 	1    7200 1650
 	1    0    0    -1  
 $EndComp
-Text Label 7600 1350 2    50   ~ 0
-THERM1
 $Comp
 L Device:C C4
 U 1 1 5C47B4BD
@@ -2824,7 +2822,7 @@ F 1 "Conn_02x03_Odd_Even" H 9700 10376 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9650 10150 50  0001 C CNN
 F 3 "~" H 9650 10150 50  0001 C CNN
 	1    9650 10150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9950 10050 10000 10050
@@ -4184,4 +4182,6 @@ $EndComp
 Connection ~ 9800 9650
 Wire Wire Line
 	9800 9650 10050 9650
+Text Label 7600 1350 2    50   ~ 0
+THERM2
 $EndSCHEMATC
