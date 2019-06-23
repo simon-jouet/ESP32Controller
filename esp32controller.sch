@@ -4182,7 +4182,7 @@ U 1 1 5D240A08
 P 1200 6500
 F 0 "TP14" H 1258 6572 50  0000 L CNN
 F 1 "TestPoint" H 1258 6527 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 1400 6500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1400 6500 50  0001 C CNN
 F 3 "~" H 1400 6500 50  0001 C CNN
 	1    1200 6500
 	1    0    0    -1  
@@ -4195,7 +4195,7 @@ U 1 1 5D2728E9
 P 2850 6700
 F 0 "TP15" H 2908 6772 50  0000 L CNN
 F 1 "TestPoint" H 2908 6727 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 3050 6700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3050 6700 50  0001 C CNN
 F 3 "~" H 3050 6700 50  0001 C CNN
 	1    2850 6700
 	1    0    0    -1  
@@ -4206,7 +4206,7 @@ U 1 1 5D277E91
 P 1350 8050
 F 0 "TP16" H 1408 8122 50  0000 L CNN
 F 1 "TestPoint" H 1408 8077 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 1550 8050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1550 8050 50  0001 C CNN
 F 3 "~" H 1550 8050 50  0001 C CNN
 	1    1350 8050
 	1    0    0    -1  
@@ -4217,7 +4217,7 @@ U 1 1 5D278819
 P 2300 8050
 F 0 "TP17" H 2358 8122 50  0000 L CNN
 F 1 "TestPoint" H 2358 8077 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 2500 8050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 2500 8050 50  0001 C CNN
 F 3 "~" H 2500 8050 50  0001 C CNN
 	1    2300 8050
 	1    0    0    -1  
@@ -4300,7 +4300,7 @@ U 1 1 5D40DC63
 P 14450 2350
 F 0 "TP2" H 14400 2550 50  0000 L CNN
 F 1 "TestPoint" H 14508 2377 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 14650 2350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 14650 2350 50  0001 C CNN
 F 3 "~" H 14650 2350 50  0001 C CNN
 	1    14450 2350
 	1    0    0    -1  
@@ -4311,7 +4311,7 @@ U 1 1 5D4E9116
 P 14400 2850
 F 0 "TP4" H 14350 3050 50  0000 L CNN
 F 1 "TestPoint" H 14458 2877 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 14600 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 14600 2850 50  0001 C CNN
 F 3 "~" H 14600 2850 50  0001 C CNN
 	1    14400 2850
 	-1   0    0    1   
@@ -4322,7 +4322,7 @@ U 1 1 5D4E98C0
 P 12850 2800
 F 0 "TP3" H 12800 3000 50  0000 L CNN
 F 1 "TestPoint" H 12908 2827 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 13050 2800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 13050 2800 50  0001 C CNN
 F 3 "~" H 13050 2800 50  0001 C CNN
 	1    12850 2800
 	1    0    0    -1  
@@ -4336,7 +4336,7 @@ U 1 1 5D5142E6
 P 12850 3100
 F 0 "TP6" H 12800 3300 50  0000 L CNN
 F 1 "TestPoint" H 12908 3127 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 13050 3100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 13050 3100 50  0001 C CNN
 F 3 "~" H 13050 3100 50  0001 C CNN
 	1    12850 3100
 	1    0    0    -1  
@@ -4350,7 +4350,7 @@ U 1 1 5D52051D
 P 15050 2150
 F 0 "TP1" H 15000 2350 50  0000 L CNN
 F 1 "TestPoint" H 15108 2177 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 15250 2150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 15250 2150 50  0001 C CNN
 F 3 "~" H 15250 2150 50  0001 C CNN
 	1    15050 2150
 	1    0    0    -1  
@@ -4362,7 +4362,7 @@ U 1 1 5D520938
 P 15050 3050
 F 0 "TP5" H 15000 3250 50  0000 L CNN
 F 1 "TestPoint" H 15108 3077 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 15250 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 15250 3050 50  0001 C CNN
 F 3 "~" H 15250 3050 50  0001 C CNN
 	1    15050 3050
 	-1   0    0    1   
@@ -4376,7 +4376,7 @@ U 1 1 5D5D531E
 P 10300 5400
 F 0 "TP7" H 10350 5500 50  0000 L CNN
 F 1 "TestPoint" H 10358 5427 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10500 5400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10500 5400 50  0001 C CNN
 F 3 "~" H 10500 5400 50  0001 C CNN
 	1    10300 5400
 	1    0    0    -1  
@@ -4391,7 +4391,7 @@ U 1 1 5D5D6D22
 P 10300 5900
 F 0 "TP12" H 10350 6000 50  0000 L CNN
 F 1 "TestPoint" H 10358 5927 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10500 5900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10500 5900 50  0001 C CNN
 F 3 "~" H 10500 5900 50  0001 C CNN
 	1    10300 5900
 	1    0    0    -1  
@@ -4407,7 +4407,7 @@ U 1 1 5D5D69B8
 P 10300 5600
 F 0 "TP11" H 10350 5700 50  0000 L CNN
 F 1 "TestPoint" H 10358 5627 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10500 5600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10500 5600 50  0001 C CNN
 F 3 "~" H 10500 5600 50  0001 C CNN
 	1    10300 5600
 	1    0    0    -1  
@@ -4424,7 +4424,7 @@ U 1 1 5D5DE6FF
 P 11600 5400
 F 0 "TP8" H 11650 5500 50  0000 L CNN
 F 1 "TestPoint" H 11658 5427 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 11800 5400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 11800 5400 50  0001 C CNN
 F 3 "~" H 11800 5400 50  0001 C CNN
 	1    11600 5400
 	1    0    0    -1  
@@ -4438,7 +4438,7 @@ U 1 1 5D5DEB8E
 P 12950 5400
 F 0 "TP9" H 13000 5500 50  0000 L CNN
 F 1 "TestPoint" H 13008 5427 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 13150 5400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 13150 5400 50  0001 C CNN
 F 3 "~" H 13150 5400 50  0001 C CNN
 	1    12950 5400
 	1    0    0    -1  
@@ -4452,7 +4452,7 @@ U 1 1 5D5E08FF
 P 14300 5400
 F 0 "TP10" H 14350 5500 50  0000 L CNN
 F 1 "TestPoint" H 14358 5427 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 14500 5400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 14500 5400 50  0001 C CNN
 F 3 "~" H 14500 5400 50  0001 C CNN
 	1    14300 5400
 	1    0    0    -1  
@@ -4466,7 +4466,7 @@ U 1 1 5D5E2404
 P 15250 6300
 F 0 "TP13" H 15300 6400 50  0000 L CNN
 F 1 "TestPoint" H 15308 6327 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 15450 6300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 15450 6300 50  0001 C CNN
 F 3 "~" H 15450 6300 50  0001 C CNN
 	1    15250 6300
 	1    0    0    -1  
