@@ -160,8 +160,8 @@ L esp32controller-rescue:Pololu_Breakout_A4988-Driver_Motor A?
 U 1 1 5D74FAB1
 P 5850 2550
 AR Path="/5D74FAB1" Ref="A?"  Part="1" 
-AR Path="/5D6FB95B/5D74FAB1" Ref="A3"  Part="1" 
-F 0 "A3" H 5600 3200 50  0000 C CNN
+AR Path="/5D6FB95B/5D74FAB1" Ref="A2"  Part="1" 
+F 0 "A2" H 5600 3200 50  0000 C CNN
 F 1 "Pololu_Breakout_A4988" H 5950 1450 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 6125 1800 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2980/pictures" H 5950 2250 50  0001 C CNN
@@ -384,8 +384,8 @@ L esp32controller-rescue:Pololu_Breakout_A4988-Driver_Motor A?
 U 1 1 5D74FB58
 P 3700 5300
 AR Path="/5D74FB58" Ref="A?"  Part="1" 
-AR Path="/5D6FB95B/5D74FB58" Ref="A2"  Part="1" 
-F 0 "A2" H 3450 5950 50  0000 C CNN
+AR Path="/5D6FB95B/5D74FB58" Ref="A4"  Part="1" 
+F 0 "A4" H 3450 5950 50  0000 C CNN
 F 1 "Pololu_Breakout_A4988" H 3800 4200 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 3975 4550 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2980/pictures" H 3800 5000 50  0001 C CNN
@@ -838,8 +838,8 @@ L esp32controller-rescue:Pololu_Breakout_A4988-Driver_Motor A?
 U 1 1 5D74FB07
 P 8000 2550
 AR Path="/5D74FB07" Ref="A?"  Part="1" 
-AR Path="/5D6FB95B/5D74FB07" Ref="A5"  Part="1" 
-F 0 "A5" H 7750 3200 50  0000 C CNN
+AR Path="/5D6FB95B/5D74FB07" Ref="A3"  Part="1" 
+F 0 "A3" H 7750 3200 50  0000 C CNN
 F 1 "Pololu_Breakout_A4988" H 8100 1450 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 8275 1800 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2980/pictures" H 8100 2250 50  0001 C CNN
@@ -951,8 +951,8 @@ L esp32controller-rescue:Pololu_Breakout_A4988-Driver_Motor A?
 U 1 1 5D74FC01
 P 5850 5300
 AR Path="/5D74FC01" Ref="A?"  Part="1" 
-AR Path="/5D6FB95B/5D74FC01" Ref="A4"  Part="1" 
-F 0 "A4" H 5600 5950 50  0000 C CNN
+AR Path="/5D6FB95B/5D74FC01" Ref="A5"  Part="1" 
+F 0 "A5" H 5600 5950 50  0000 C CNN
 F 1 "Pololu_Breakout_A4988" H 5950 4200 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 6125 4550 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2980/pictures" H 5950 5000 50  0001 C CNN
@@ -989,11 +989,11 @@ Wire Notes Line
 	4700 3850 4700 6550
 Wire Notes Line
 	6800 6550 6800 3850
-Text GLabel 2950 2450 0    50   Input ~ 0
+Text GLabel 2950 2650 0    50   Input ~ 0
 Q0
 Text GLabel 2950 2550 0    50   Input ~ 0
 Q1
-Text GLabel 2950 2650 0    50   Input ~ 0
+Text GLabel 2950 2450 0    50   Input ~ 0
 Q2
 Wire Wire Line
 	2950 2450 3050 2450
@@ -1002,11 +1002,11 @@ Wire Wire Line
 	3300 2550 2950 2550
 Wire Wire Line
 	3300 2650 2950 2650
-Text GLabel 5100 2450 0    50   Input ~ 0
+Text GLabel 5100 2650 0    50   Input ~ 0
 Q3
 Text GLabel 5100 2550 0    50   Input ~ 0
 Q4
-Text GLabel 5100 2650 0    50   Input ~ 0
+Text GLabel 5100 2450 0    50   Input ~ 0
 Q5
 Wire Wire Line
 	5100 2450 5200 2450
@@ -1014,11 +1014,11 @@ Wire Wire Line
 	5450 2550 5100 2550
 Wire Wire Line
 	5450 2650 5100 2650
-Text GLabel 7250 2450 0    50   Input ~ 0
+Text GLabel 7250 2650 0    50   Input ~ 0
 Q6
 Text GLabel 7250 2550 0    50   Input ~ 0
 Q7
-Text GLabel 7250 2650 0    50   Input ~ 0
+Text GLabel 7250 2450 0    50   Input ~ 0
 Q8
 Wire Wire Line
 	7250 2450 7350 2450
@@ -1026,11 +1026,11 @@ Wire Wire Line
 	7600 2550 7250 2550
 Wire Wire Line
 	7600 2650 7250 2650
-Text GLabel 2950 5200 0    50   Input ~ 0
+Text GLabel 2950 5400 0    50   Input ~ 0
 Q9
 Text GLabel 2950 5300 0    50   Input ~ 0
 Q10
-Text GLabel 2950 5400 0    50   Input ~ 0
+Text GLabel 2950 5200 0    50   Input ~ 0
 Q11
 Wire Wire Line
 	2950 5200 3050 5200
@@ -1038,11 +1038,11 @@ Wire Wire Line
 	3300 5300 2950 5300
 Wire Wire Line
 	3300 5400 2950 5400
-Text GLabel 5100 5200 0    50   Input ~ 0
+Text GLabel 5100 5400 0    50   Input ~ 0
 Q12
 Text GLabel 5100 5300 0    50   Input ~ 0
 Q13
-Text GLabel 5100 5400 0    50   Input ~ 0
+Text GLabel 5100 5200 0    50   Input ~ 0
 Q14
 Wire Wire Line
 	5100 5200 5200 5200

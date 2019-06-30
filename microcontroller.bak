@@ -696,8 +696,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 3500 5300 50  0001 C CNN
 	1    3500 5300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 4900 1650 4900
 $Comp
 L power:GND #PWR?
 U 1 1 5D7988A9
@@ -775,19 +773,6 @@ Text Notes 1400 3950 0    50   ~ 0
 I2C SHIFT REGISTERS
 $Comp
 L Connector:TestPoint TP?
-U 1 1 5D7988FC
-P 1650 4900
-AR Path="/5D7988FC" Ref="TP?"  Part="1" 
-AR Path="/5D5CA848/5D7988FC" Ref="TP1"  Part="1" 
-F 0 "TP1" H 1500 5000 50  0000 L CNN
-F 1 "TestPoint" H 1708 4927 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1850 4900 50  0001 C CNN
-F 3 "~" H 1850 4900 50  0001 C CNN
-	1    1650 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
 U 1 1 5D79890A
 P 1650 5100
 AR Path="/5D79890A" Ref="TP?"  Part="1" 
@@ -799,52 +784,10 @@ F 3 "~" H 1850 5100 50  0001 C CNN
 	1    1650 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D798914
-P 2750 4900
-AR Path="/5D798914" Ref="TP?"  Part="1" 
-AR Path="/5D5CA848/5D798914" Ref="TP4"  Part="1" 
-F 0 "TP4" H 2800 5000 50  0000 L CNN
-F 1 "TestPoint" H 2808 4927 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2950 4900 50  0001 C CNN
-F 3 "~" H 2950 4900 50  0001 C CNN
-	1    2750 4900
-	1    0    0    -1  
-$EndComp
-Connection ~ 2750 4900
 Wire Wire Line
 	2750 4900 3100 4900
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D79891C
-P 4100 4900
-AR Path="/5D79891C" Ref="TP?"  Part="1" 
-AR Path="/5D5CA848/5D79891C" Ref="TP5"  Part="1" 
-F 0 "TP5" H 4150 5000 50  0000 L CNN
-F 1 "TestPoint" H 4158 4927 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4300 4900 50  0001 C CNN
-F 3 "~" H 4300 4900 50  0001 C CNN
-	1    4100 4900
-	1    0    0    -1  
-$EndComp
-Connection ~ 4100 4900
 Wire Wire Line
 	4100 4900 4450 4900
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D798924
-P 5450 4900
-AR Path="/5D798924" Ref="TP?"  Part="1" 
-AR Path="/5D5CA848/5D798924" Ref="TP6"  Part="1" 
-F 0 "TP6" H 5500 5000 50  0000 L CNN
-F 1 "TestPoint" H 5508 4927 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 5650 4900 50  0001 C CNN
-F 3 "~" H 5650 4900 50  0001 C CNN
-	1    5450 4900
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 4900
 Wire Wire Line
 	5450 4900 5800 4900
 $Comp
@@ -1179,9 +1122,6 @@ Wire Notes Line
 	9300 2200 8300 2200
 Text GLabel 1550 4900 0    50   Input ~ 0
 SDI
-Wire Wire Line
-	1550 4900 1650 4900
-Connection ~ 1650 4900
 Text GLabel 1600 5100 0    50   Input ~ 0
 BCLK
 Text GLabel 1600 5400 0    50   Input ~ 0
@@ -1286,4 +1226,6 @@ Wire Wire Line
 	5700 2600 5500 2600
 Wire Wire Line
 	5500 2600 5500 2500
+Wire Wire Line
+	1550 4900 1750 4900
 $EndSCHEMATC

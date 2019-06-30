@@ -305,7 +305,7 @@ Text GLabel 5850 1000 0    50   Input ~ 0
 FAN_OUT
 Text GLabel 5850 1300 0    50   Input ~ 0
 HEATER_OUT
-Text GLabel 5850 1600 0    50   Input ~ 0
+Text GLabel 5850 1700 0    50   Input ~ 0
 BED_OUT
 Wire Wire Line
 	5850 1000 5950 1000
@@ -321,20 +321,20 @@ Text GLabel 5850 1400 0    50   Input ~ 0
 VIN_FUSED
 Wire Wire Line
 	5850 1400 5950 1400
-Text GLabel 5850 1700 0    50   Input ~ 0
+Text GLabel 5850 1600 0    50   Input ~ 0
 VBED_FUSED
 Wire Wire Line
 	5850 1700 5950 1700
 $Comp
 L Connector_Generic:Conn_01x02 J13
 U 1 1 5DD5A2B4
-P 800 1200
-F 0 "J13" H 718 875 50  0000 C CNN
-F 1 "Conn_01x02" H 718 966 50  0000 C CNN
-F 2 "ESP32-footprints-Lib:TERM_2-WAY_6.35mm" H 800 1200 50  0001 C CNN
-F 3 "~" H 800 1200 50  0001 C CNN
-	1    800  1200
-	-1   0    0    1   
+P 800 1100
+F 0 "J13" H 718 775 50  0000 C CNN
+F 1 "Conn_01x02" H 718 866 50  0000 C CNN
+F 2 "ESP32-footprints-Lib:TERM_2-WAY_6.35mm" H 800 1100 50  0001 C CNN
+F 3 "~" H 800 1100 50  0001 C CNN
+	1    800  1100
+	-1   0    0    -1  
 $EndComp
 Text GLabel 1200 1100 2    50   Input ~ 0
 VIN
@@ -389,17 +389,17 @@ Wire Wire Line
 Wire Wire Line
 	7650 1400 7550 1400
 $Comp
-L Connector_Generic:Conn_02x16_Odd_Even J?
+L Connector_Generic:Conn_02x11_Odd_Even J?
 U 1 1 5DD8260C
-P 3100 1750
+P 3100 1550
 AR Path="/5DD8260C" Ref="J?"  Part="1" 
 AR Path="/5D5CA848/5DD8260C" Ref="J?"  Part="1" 
 AR Path="/5DCEED1C/5DD8260C" Ref="J14"  Part="1" 
-F 0 "J14" H 3150 2667 50  0000 C CNN
-F 1 "Conn_02x16_Odd_Even" H 3150 2576 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 3100 1750 50  0001 C CNN
-F 3 "~" H 3100 1750 50  0001 C CNN
-	1    3100 1750
+F 0 "J14" H 3150 2300 50  0000 C CNN
+F 1 "Conn_02x11_Odd_Even" H 3150 2200 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x11_P2.54mm_Vertical" H 3100 1550 50  0001 C CNN
+F 3 "~" H 3100 1550 50  0001 C CNN
+	1    3100 1550
 	1    0    0    -1  
 $EndComp
 Text Notes 650  800  0    50   ~ 0
@@ -415,96 +415,54 @@ F 3 "~" H 4400 1400 50  0001 C CNN
 	1    4400 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 4200 1000 0    50   Input ~ 0
-Q15
-Text GLabel 4200 1100 0    50   Input ~ 0
-Q17
-Text GLabel 4200 1200 0    50   Input ~ 0
-Q19
-Text GLabel 4200 1300 0    50   Input ~ 0
-Q21
-Text GLabel 4200 1400 0    50   Input ~ 0
-Q23
-Text GLabel 4200 1500 0    50   Input ~ 0
-Q25
-Text GLabel 4200 1600 0    50   Input ~ 0
-Q27
-Text GLabel 4200 1700 0    50   Input ~ 0
-Q29
-Text GLabel 4200 1800 0    50   Input ~ 0
-Q31
-Text GLabel 4700 1700 2    50   Input ~ 0
-Q30
-Text GLabel 4700 1600 2    50   Input ~ 0
-Q28
-Text GLabel 4700 1500 2    50   Input ~ 0
-Q26
-Text GLabel 4700 1400 2    50   Input ~ 0
-Q24
-Text GLabel 4700 1300 2    50   Input ~ 0
-Q22
-Text GLabel 4700 1200 2    50   Input ~ 0
-Q20
-Text GLabel 4700 1100 2    50   Input ~ 0
-Q18
-Text GLabel 4700 1000 2    50   Input ~ 0
-Q16
 $Comp
 L power:GND #PWR?
 U 1 1 5E20FFB9
-P 4700 1800
+P 4200 1800
 AR Path="/5E20FFB9" Ref="#PWR?"  Part="1" 
 AR Path="/5D5CA848/5E20FFB9" Ref="#PWR?"  Part="1" 
 AR Path="/5DCEED1C/5E20FFB9" Ref="#PWR069"  Part="1" 
-F 0 "#PWR069" H 4700 1550 50  0001 C CNN
-F 1 "GND" V 4705 1672 50  0000 R CNN
-F 2 "" H 4700 1800 50  0001 C CNN
-F 3 "" H 4700 1800 50  0001 C CNN
-	1    4700 1800
-	0    -1   -1   0   
+F 0 "#PWR069" H 4200 1550 50  0001 C CNN
+F 1 "GND" V 4205 1672 50  0000 R CNN
+F 2 "" H 4200 1800 50  0001 C CNN
+F 3 "" H 4200 1800 50  0001 C CNN
+	1    4200 1800
+	0    1    -1   0   
 $EndComp
-Text GLabel 3400 2550 2    50   Input ~ 0
+Text GLabel 3400 1150 2    50   Input ~ 0
 TXD
-Text GLabel 3400 2450 2    50   Input ~ 0
-SCL
-Text GLabel 3400 2250 2    50   Input ~ 0
-VSPI_SS
-Text GLabel 3400 2150 2    50   Input ~ 0
-VSPI_MOSI
-Text GLabel 3400 1850 2    50   Input ~ 0
-WCLK
-Text GLabel 3400 1750 2    50   Input ~ 0
-BCLK
-Text GLabel 3400 1650 2    50   Input ~ 0
-HSPI_SS
-Text GLabel 3400 1550 2    50   Input ~ 0
-HSPI_MOSI
-Text GLabel 3400 1350 2    50   Input ~ 0
-FAN
 Text GLabel 3400 1250 2    50   Input ~ 0
-IO25
-Text GLabel 2900 2550 0    50   Input ~ 0
-RXD
-Text GLabel 2900 2450 0    50   Input ~ 0
-SDA
-Text GLabel 2900 2250 0    50   Input ~ 0
-VSPI_SCK
-Text GLabel 2900 2150 0    50   Input ~ 0
-VSPI_MISO
-Text GLabel 2900 1950 0    50   Input ~ 0
-SDI
-Text GLabel 2900 1850 0    50   Input ~ 0
-BED
-Text GLabel 2900 1750 0    50   Input ~ 0
-HEATER
-Text GLabel 2900 1650 0    50   Input ~ 0
-HSPI_SCK
+SCL
 Text GLabel 2900 1550 0    50   Input ~ 0
-HSPI_MISO
-Text GLabel 2900 1350 0    50   Input ~ 0
-IO26
+VSPI_SS
+Text GLabel 3400 1450 2    50   Input ~ 0
+VSPI_MOSI
+Text GLabel 3400 1750 2    50   Input ~ 0
+HSPI_SS
+Text GLabel 2900 1750 0    50   Input ~ 0
+HSPI_MOSI
+Text GLabel 3400 1950 2    50   Input ~ 0
+FAN
+Text GLabel 2900 2050 0    50   Input ~ 0
+IO25
+Text GLabel 2900 1150 0    50   Input ~ 0
+RXD
 Text GLabel 2900 1250 0    50   Input ~ 0
-EN
+SDA
+Text GLabel 3400 1550 2    50   Input ~ 0
+VSPI_SCK
+Text GLabel 2900 1450 0    50   Input ~ 0
+VSPI_MISO
+Text GLabel 3400 1650 2    50   Input ~ 0
+BED
+Text GLabel 2900 1650 0    50   Input ~ 0
+HEATER
+Text GLabel 2900 1850 0    50   Input ~ 0
+HSPI_SCK
+Text GLabel 3400 1850 2    50   Input ~ 0
+HSPI_MISO
+Text GLabel 2900 1950 0    50   Input ~ 0
+IO26
 Wire Notes Line
 	600  600  1500 600 
 Wire Notes Line
@@ -583,4 +541,72 @@ Wire Notes Line
 	6550 2800 6550 1950
 Wire Notes Line
 	6550 1950 5250 1950
+$Comp
+L power:GND #PWR?
+U 1 1 5D22ED0C
+P 3400 1050
+AR Path="/5D22ED0C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5CA848/5D22ED0C" Ref="#PWR?"  Part="1" 
+AR Path="/5DCEED1C/5D22ED0C" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 3400 800 50  0001 C CNN
+F 1 "GND" V 3405 922 50  0000 R CNN
+F 2 "" H 3400 1050 50  0001 C CNN
+F 3 "" H 3400 1050 50  0001 C CNN
+	1    3400 1050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2900 1050 0    50   Input ~ 0
++3.3V
+Text GLabel 2900 1350 0    50   Input ~ 0
++3.3V
+$Comp
+L power:GND #PWR?
+U 1 1 5D24346D
+P 3400 1350
+AR Path="/5D24346D" Ref="#PWR?"  Part="1" 
+AR Path="/5D5CA848/5D24346D" Ref="#PWR?"  Part="1" 
+AR Path="/5DCEED1C/5D24346D" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 3400 1100 50  0001 C CNN
+F 1 "GND" V 3405 1222 50  0000 R CNN
+F 2 "" H 3400 1350 50  0001 C CNN
+F 3 "" H 3400 1350 50  0001 C CNN
+	1    3400 1350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4200 1000 0    50   Input ~ 0
+Q16
+Text GLabel 4200 1100 0    50   Input ~ 0
+Q18
+Text GLabel 4200 1200 0    50   Input ~ 0
+Q20
+Text GLabel 4200 1300 0    50   Input ~ 0
+Q22
+Text GLabel 4200 1400 0    50   Input ~ 0
+Q24
+Text GLabel 4200 1500 0    50   Input ~ 0
+Q26
+Text GLabel 4200 1600 0    50   Input ~ 0
+Q28
+Text GLabel 4200 1700 0    50   Input ~ 0
+Q30
+Text GLabel 4700 1800 2    50   Input ~ 0
+Q31
+Text GLabel 4700 1700 2    50   Input ~ 0
+Q29
+Text GLabel 4700 1600 2    50   Input ~ 0
+Q27
+Text GLabel 4700 1500 2    50   Input ~ 0
+Q25
+Text GLabel 4700 1400 2    50   Input ~ 0
+Q23
+Text GLabel 4700 1300 2    50   Input ~ 0
+Q21
+Text GLabel 4700 1200 2    50   Input ~ 0
+Q19
+Text GLabel 4700 1100 2    50   Input ~ 0
+Q17
+Text GLabel 4700 1000 2    50   Input ~ 0
+Q15
+Text GLabel 3400 2050 2    50   Input ~ 0
+EN
 $EndSCHEMATC

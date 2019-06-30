@@ -989,11 +989,11 @@ Wire Notes Line
 	4700 3850 4700 6550
 Wire Notes Line
 	6800 6550 6800 3850
-Text GLabel 2950 2450 0    50   Input ~ 0
+Text GLabel 2950 2650 0    50   Input ~ 0
 Q0
 Text GLabel 2950 2550 0    50   Input ~ 0
 Q1
-Text GLabel 2950 2650 0    50   Input ~ 0
+Text GLabel 2950 2450 0    50   Input ~ 0
 Q2
 Wire Wire Line
 	2950 2450 3050 2450
@@ -1002,11 +1002,11 @@ Wire Wire Line
 	3300 2550 2950 2550
 Wire Wire Line
 	3300 2650 2950 2650
-Text GLabel 5100 2450 0    50   Input ~ 0
+Text GLabel 5100 2650 0    50   Input ~ 0
 Q3
 Text GLabel 5100 2550 0    50   Input ~ 0
 Q4
-Text GLabel 5100 2650 0    50   Input ~ 0
+Text GLabel 5100 2450 0    50   Input ~ 0
 Q5
 Wire Wire Line
 	5100 2450 5200 2450
@@ -1014,11 +1014,11 @@ Wire Wire Line
 	5450 2550 5100 2550
 Wire Wire Line
 	5450 2650 5100 2650
-Text GLabel 7250 2450 0    50   Input ~ 0
+Text GLabel 7250 2650 0    50   Input ~ 0
 Q6
 Text GLabel 7250 2550 0    50   Input ~ 0
 Q7
-Text GLabel 7250 2650 0    50   Input ~ 0
+Text GLabel 7250 2450 0    50   Input ~ 0
 Q8
 Wire Wire Line
 	7250 2450 7350 2450
@@ -1026,11 +1026,11 @@ Wire Wire Line
 	7600 2550 7250 2550
 Wire Wire Line
 	7600 2650 7250 2650
-Text GLabel 2950 5200 0    50   Input ~ 0
+Text GLabel 2950 5400 0    50   Input ~ 0
 Q9
 Text GLabel 2950 5300 0    50   Input ~ 0
 Q10
-Text GLabel 2950 5400 0    50   Input ~ 0
+Text GLabel 2950 5200 0    50   Input ~ 0
 Q11
 Wire Wire Line
 	2950 5200 3050 5200
@@ -1038,11 +1038,11 @@ Wire Wire Line
 	3300 5300 2950 5300
 Wire Wire Line
 	3300 5400 2950 5400
-Text GLabel 5100 5200 0    50   Input ~ 0
+Text GLabel 5100 5400 0    50   Input ~ 0
 Q12
 Text GLabel 5100 5300 0    50   Input ~ 0
 Q13
-Text GLabel 5100 5400 0    50   Input ~ 0
+Text GLabel 5100 5200 0    50   Input ~ 0
 Q14
 Wire Wire Line
 	5100 5200 5200 5200
