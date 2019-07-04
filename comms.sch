@@ -352,32 +352,6 @@ F 3 "~" H 8050 4400 50  0001 C CNN
 	1    7850 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D770AF6
-P 9400 3450
-AR Path="/5D770AF6" Ref="TP?"  Part="1" 
-AR Path="/5D75460E/5D770AF6" Ref="TP16"  Part="1" 
-F 0 "TP16" H 9350 3650 50  0000 L CNN
-F 1 "TestPoint" H 9458 3477 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9600 3450 50  0001 C CNN
-F 3 "~" H 9600 3450 50  0001 C CNN
-	1    9400 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D770AFD
-P 9400 4350
-AR Path="/5D770AFD" Ref="TP?"  Part="1" 
-AR Path="/5D75460E/5D770AFD" Ref="TP17"  Part="1" 
-F 0 "TP17" H 9350 4550 50  0000 L CNN
-F 1 "TestPoint" H 9458 4377 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9600 4350 50  0001 C CNN
-F 3 "~" H 9600 4350 50  0001 C CNN
-	1    9400 4350
-	-1   0    0    1   
-$EndComp
 Wire Notes Line
 	6150 4600 6150 2150
 Wire Notes Line
@@ -553,12 +527,10 @@ Text GLabel 9550 3450 2    50   Input ~ 0
 EN
 Wire Wire Line
 	9550 3450 9400 3450
-Connection ~ 9400 3450
 Text GLabel 9550 4350 2    50   Input ~ 0
 IO0
 Wire Wire Line
 	9550 4350 9400 4350
-Connection ~ 9400 4350
 Text GLabel 8200 2900 0    50   Input ~ 0
 +3.3V
 Wire Wire Line

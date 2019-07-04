@@ -404,31 +404,6 @@ F 3 "~" H 3100 1550 50  0001 C CNN
 $EndComp
 Text Notes 650  800  0    50   ~ 0
 Power Input\n10V - 35V
-$Comp
-L Connector_Generic:Conn_02x09_Odd_Even J15
-U 1 1 5E207B93
-P 4400 1400
-F 0 "J15" H 4450 2017 50  0000 C CNN
-F 1 "Conn_02x09_Odd_Even" H 4450 1926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 4400 1400 50  0001 C CNN
-F 3 "~" H 4400 1400 50  0001 C CNN
-	1    4400 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E20FFB9
-P 4200 1800
-AR Path="/5E20FFB9" Ref="#PWR?"  Part="1" 
-AR Path="/5D5CA848/5E20FFB9" Ref="#PWR?"  Part="1" 
-AR Path="/5DCEED1C/5E20FFB9" Ref="#PWR069"  Part="1" 
-F 0 "#PWR069" H 4200 1550 50  0001 C CNN
-F 1 "GND" V 4205 1672 50  0000 R CNN
-F 2 "" H 4200 1800 50  0001 C CNN
-F 3 "" H 4200 1800 50  0001 C CNN
-	1    4200 1800
-	0    1    -1   0   
-$EndComp
 Text GLabel 3400 1150 2    50   Input ~ 0
 TXD
 Text GLabel 3400 1250 2    50   Input ~ 0
@@ -504,8 +479,6 @@ Wire Notes Line
 Text Notes 4000 750  0    50   ~ 0
 I2S breakout pins
 Wire Notes Line
-	3950 650  3950 1900
-Wire Notes Line
 	3950 1900 5000 1900
 Wire Notes Line
 	5000 1900 5000 650 
@@ -573,40 +546,67 @@ F 3 "" H 3400 1350 50  0001 C CNN
 	1    3400 1350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4200 1000 0    50   Input ~ 0
-Q16
-Text GLabel 4200 1100 0    50   Input ~ 0
-Q18
-Text GLabel 4200 1200 0    50   Input ~ 0
-Q20
-Text GLabel 4200 1300 0    50   Input ~ 0
-Q22
-Text GLabel 4200 1400 0    50   Input ~ 0
-Q24
-Text GLabel 4200 1500 0    50   Input ~ 0
-Q26
-Text GLabel 4200 1600 0    50   Input ~ 0
-Q28
-Text GLabel 4200 1700 0    50   Input ~ 0
-Q30
-Text GLabel 4700 1800 2    50   Input ~ 0
-Q31
-Text GLabel 4700 1700 2    50   Input ~ 0
-Q29
-Text GLabel 4700 1600 2    50   Input ~ 0
-Q27
-Text GLabel 4700 1500 2    50   Input ~ 0
-Q25
-Text GLabel 4700 1400 2    50   Input ~ 0
-Q23
-Text GLabel 4700 1300 2    50   Input ~ 0
-Q21
-Text GLabel 4700 1200 2    50   Input ~ 0
-Q19
-Text GLabel 4700 1100 2    50   Input ~ 0
-Q17
-Text GLabel 4700 1000 2    50   Input ~ 0
-Q15
 Text GLabel 3400 2050 2    50   Input ~ 0
 EN
+Text GLabel 4750 1000 2    50   Input ~ 0
+Q15
+Text GLabel 4750 1100 2    50   Input ~ 0
+Q17
+Text GLabel 4750 1200 2    50   Input ~ 0
+Q19
+Text GLabel 4750 1300 2    50   Input ~ 0
+Q21
+Text GLabel 4750 1400 2    50   Input ~ 0
+Q23
+Text GLabel 4750 1500 2    50   Input ~ 0
+Q25
+Text GLabel 4750 1600 2    50   Input ~ 0
+Q27
+Text GLabel 4750 1700 2    50   Input ~ 0
+Q29
+Text GLabel 4750 1800 2    50   Input ~ 0
+Q31
+Text GLabel 4250 1700 0    50   Input ~ 0
+Q30
+Text GLabel 4250 1600 0    50   Input ~ 0
+Q28
+Text GLabel 4250 1500 0    50   Input ~ 0
+Q26
+Text GLabel 4250 1400 0    50   Input ~ 0
+Q24
+Text GLabel 4250 1300 0    50   Input ~ 0
+Q22
+Text GLabel 4250 1200 0    50   Input ~ 0
+Q20
+Text GLabel 4250 1100 0    50   Input ~ 0
+Q18
+Text GLabel 4250 1000 0    50   Input ~ 0
+Q16
+Wire Notes Line
+	3950 650  3950 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5E20FFB9
+P 4250 1800
+AR Path="/5E20FFB9" Ref="#PWR?"  Part="1" 
+AR Path="/5D5CA848/5E20FFB9" Ref="#PWR?"  Part="1" 
+AR Path="/5DCEED1C/5E20FFB9" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 4250 1550 50  0001 C CNN
+F 1 "GND" V 4255 1672 50  0000 R CNN
+F 2 "" H 4250 1800 50  0001 C CNN
+F 3 "" H 4250 1800 50  0001 C CNN
+	1    4250 1800
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J15
+U 1 1 5E207B93
+P 4450 1400
+F 0 "J15" H 4500 2017 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 4500 1926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 4450 1400 50  0001 C CNN
+F 3 "~" H 4450 1400 50  0001 C CNN
+	1    4450 1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
