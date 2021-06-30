@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:esp32controller-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -29,14 +28,14 @@ F 3 "" H 3350 3350 50  0001 C CNN
 	1    3350 3350
 	0    1    1    0   
 $EndComp
-Text Notes 2700 2500 0    50   ~ 0
+Text Notes 2450 2500 0    50   ~ 0
 SDCard
 Wire Notes Line
-	5650 4000 2650 4000
+	5650 4000 2450 4000
 Wire Notes Line
-	2650 4000 2650 2400
+	2450 4000 2450 2400
 Wire Notes Line
-	2650 2400 5650 2400
+	2450 2400 5650 2400
 Wire Notes Line
 	5650 2400 5650 4000
 $Comp
@@ -94,133 +93,6 @@ F 3 "" H 5300 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32controller-rescue:CH340G-ch34x U?
-U 1 1 5D770A50
-P 8700 2950
-AR Path="/5D770A50" Ref="U?"  Part="1" 
-AR Path="/5D75460E/5D770A50" Ref="U8"  Part="1" 
-F 0 "U8" H 8700 3547 60  0000 C CNN
-F 1 "CH340C" H 8700 3441 60  0000 C CNN
-F 2 "Package_SO:SOP-16_4.4x10.4mm_P1.27mm" H 8800 3750 60  0001 C CNN
-F 3 "" H 8800 2750 60  0000 C CNN
-	1    8700 2950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 8250 3300
-NoConn ~ 8250 3200
-$Comp
-L power:GND #PWR?
-U 1 1 5D770A58
-P 8100 2600
-AR Path="/5D770A58" Ref="#PWR?"  Part="1" 
-AR Path="/5D75460E/5D770A58" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 8100 2350 50  0001 C CNN
-F 1 "GND" V 8105 2472 50  0000 R CNN
-F 2 "" H 8100 2600 50  0001 C CNN
-F 3 "" H 8100 2600 50  0001 C CNN
-	1    8100 2600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8250 2600 8100 2600
-Wire Wire Line
-	9150 2600 9600 2600
-$Comp
-L Device:C C?
-U 1 1 5D770A65
-P 9600 2750
-AR Path="/5D770A65" Ref="C?"  Part="1" 
-AR Path="/5D75460E/5D770A65" Ref="C28"  Part="1" 
-F 0 "C28" H 9715 2796 50  0000 L CNN
-F 1 "100nF" H 9715 2705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9638 2600 50  0001 C CNN
-F 3 "~" H 9600 2750 50  0001 C CNN
-	1    9600 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D770A6C
-P 9600 2900
-AR Path="/5D770A6C" Ref="#PWR?"  Part="1" 
-AR Path="/5D75460E/5D770A6C" Ref="#PWR064"  Part="1" 
-F 0 "#PWR064" H 9600 2650 50  0001 C CNN
-F 1 "GND" H 9605 2727 50  0000 C CNN
-F 2 "" H 9600 2900 50  0001 C CNN
-F 3 "" H 9600 2900 50  0001 C CNN
-	1    9600 2900
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9150 2700
-NoConn ~ 9150 3000
-NoConn ~ 9150 3100
-NoConn ~ 9150 3200
-NoConn ~ 9150 3300
-$Comp
-L Device:R R?
-U 1 1 5D770A7D
-P 8950 3650
-AR Path="/5D770A7D" Ref="R?"  Part="1" 
-AR Path="/5D75460E/5D770A7D" Ref="R30"  Part="1" 
-F 0 "R30" V 9157 3650 50  0000 C CNN
-F 1 "10k" V 9066 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8880 3650 50  0001 C CNN
-F 3 "~" H 8950 3650 50  0001 C CNN
-	1    8950 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Q_NPN_BEC Q?
-U 1 1 5D770A83
-P 9300 3650
-AR Path="/5D770A83" Ref="Q?"  Part="1" 
-AR Path="/5D75460E/5D770A83" Ref="Q1"  Part="1" 
-F 0 "Q1" H 9491 3696 50  0000 L CNN
-F 1 "Q_NPN_BEC" H 9491 3605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9500 3750 50  0001 C CNN
-F 3 "~" H 9300 3650 50  0001 C CNN
-	1    9300 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NPN_BEC Q?
-U 1 1 5D770A89
-P 9300 4150
-AR Path="/5D770A89" Ref="Q?"  Part="1" 
-AR Path="/5D75460E/5D770A89" Ref="Q2"  Part="1" 
-F 0 "Q2" H 9491 4104 50  0000 L CNN
-F 1 "Q_NPN_BEC" H 9491 4195 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9500 4250 50  0001 C CNN
-F 3 "~" H 9300 4150 50  0001 C CNN
-	1    9300 4150
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D770A8F
-P 8950 4150
-AR Path="/5D770A8F" Ref="R?"  Part="1" 
-AR Path="/5D75460E/5D770A8F" Ref="R31"  Part="1" 
-F 0 "R31" V 9157 4150 50  0000 C CNN
-F 1 "10k" V 9066 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8880 4150 50  0001 C CNN
-F 3 "~" H 8950 4150 50  0001 C CNN
-	1    8950 4150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8800 4150 8750 4150
-Wire Wire Line
-	8750 4150 8750 3850
-Wire Wire Line
-	8750 3850 9400 3850
-Connection ~ 8750 4150
-Wire Wire Line
-	9400 3950 8800 3950
-Wire Wire Line
-	8800 3950 8800 3650
-Connection ~ 8800 3650
-$Comp
 L Device:D_TVS D?
 U 1 1 5D770AA2
 P 7900 3300
@@ -267,91 +139,9 @@ F 3 "" H 8050 3600 50  0001 C CNN
 $EndComp
 Connection ~ 8050 3600
 Text Notes 6200 2250 0    50   ~ 0
-USB TO SERIAL
-$Comp
-L Device:R R?
-U 1 1 5D770AB9
-P 8100 4100
-AR Path="/5D770AB9" Ref="R?"  Part="1" 
-AR Path="/5D75460E/5D770AB9" Ref="R28"  Part="1" 
-F 0 "R28" V 8000 4100 50  0000 C CNN
-F 1 "0" V 8100 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8030 4100 50  0001 C CNN
-F 3 "~" H 8100 4100 50  0001 C CNN
-	1    8100 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D770ABF
-P 8100 4400
-AR Path="/5D770ABF" Ref="R?"  Part="1" 
-AR Path="/5D75460E/5D770ABF" Ref="R29"  Part="1" 
-F 0 "R29" V 8000 4400 50  0000 C CNN
-F 1 "499" V 8100 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8030 4400 50  0001 C CNN
-F 3 "~" H 8100 4400 50  0001 C CNN
-	1    8100 4400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7950 4100 7850 4100
-Wire Wire Line
-	7950 4400 7850 4400
+USB
 Wire Notes Line
 	10100 4600 10100 2150
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D770ADA
-P 8800 3650
-AR Path="/5D770ADA" Ref="TP?"  Part="1" 
-AR Path="/5D75460E/5D770ADA" Ref="TP15"  Part="1" 
-F 0 "TP15" H 8750 3850 50  0000 L CNN
-F 1 "TestPoint" H 8858 3677 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9000 3650 50  0001 C CNN
-F 3 "~" H 9000 3650 50  0001 C CNN
-	1    8800 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D770AE0
-P 8750 4150
-AR Path="/5D770AE0" Ref="TP?"  Part="1" 
-AR Path="/5D75460E/5D770AE0" Ref="TP14"  Part="1" 
-F 0 "TP14" H 8700 4350 50  0000 L CNN
-F 1 "TestPoint" H 8808 4177 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8950 4150 50  0001 C CNN
-F 3 "~" H 8950 4150 50  0001 C CNN
-	1    8750 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D770AE6
-P 7850 4100
-AR Path="/5D770AE6" Ref="TP?"  Part="1" 
-AR Path="/5D75460E/5D770AE6" Ref="TP12"  Part="1" 
-F 0 "TP12" H 7800 4300 50  0000 L CNN
-F 1 "TestPoint" H 7908 4127 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8050 4100 50  0001 C CNN
-F 3 "~" H 8050 4100 50  0001 C CNN
-	1    7850 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D770AEE
-P 7850 4400
-AR Path="/5D770AEE" Ref="TP?"  Part="1" 
-AR Path="/5D75460E/5D770AEE" Ref="TP13"  Part="1" 
-F 0 "TP13" H 7800 4600 50  0000 L CNN
-F 1 "TestPoint" H 7908 4427 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8050 4400 50  0001 C CNN
-F 3 "~" H 8050 4400 50  0001 C CNN
-	1    7850 4400
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6150 4600 6150 2150
 Wire Notes Line
@@ -366,18 +156,18 @@ Text GLabel 3250 3150 0    50   Input ~ 0
 +3.3V
 Wire Wire Line
 	3250 3150 3350 3150
-Text GLabel 3250 2950 0    50   Input ~ 0
+Text GLabel 2950 2950 0    50   Input ~ 0
 VSPI_SS
-Text GLabel 3250 3050 0    50   Input ~ 0
+Text GLabel 2950 3050 0    50   Input ~ 0
 VSPI_MOSI
-Text GLabel 3250 3250 0    50   Input ~ 0
+Text GLabel 2950 3250 0    50   Input ~ 0
 VSPI_SCK
-Text GLabel 3250 3450 0    50   Input ~ 0
+Text GLabel 2950 3450 0    50   Input ~ 0
 VSPI_MISO
 Wire Wire Line
 	3250 2950 3350 2950
 Wire Wire Line
-	3350 3050 3250 3050
+	3350 3050 3300 3050
 Wire Wire Line
 	3250 3250 3350 3250
 Wire Wire Line
@@ -481,63 +271,68 @@ Wire Wire Line
 Wire Wire Line
 	6800 4000 6500 4000
 Connection ~ 6800 4000
-Text GLabel 7800 4100 0    50   Input ~ 0
-RXD
+$Comp
+L Device:R R?
+U 1 1 61530217
+P 3100 2950
+F 0 "R?" V 3100 2800 50  0000 C CNN
+F 1 "220" V 3100 2950 50  0000 C CNN
+F 2 "" V 3030 2950 50  0001 C CNN
+F 3 "~" H 3100 2950 50  0001 C CNN
+	1    3100 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615316F6
+P 3100 3050
+F 0 "R?" V 3100 2900 50  0000 C CNN
+F 1 "220" V 3100 3050 50  0000 C CNN
+F 2 "" V 3030 3050 50  0001 C CNN
+F 3 "~" H 3100 3050 50  0001 C CNN
+	1    3100 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61531B50
+P 3100 3250
+F 0 "R?" V 3100 3100 50  0000 C CNN
+F 1 "220" V 3100 3250 50  0000 C CNN
+F 2 "" V 3030 3250 50  0001 C CNN
+F 3 "~" H 3100 3250 50  0001 C CNN
+	1    3100 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61531DC2
+P 3100 3450
+F 0 "R?" V 3100 3300 50  0000 C CNN
+F 1 "220" V 3100 3450 50  0000 C CNN
+F 2 "" V 3030 3450 50  0001 C CNN
+F 3 "~" H 3100 3450 50  0001 C CNN
+	1    3100 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61535863
+P 3300 2650
+F 0 "R?" H 3370 2696 50  0000 L CNN
+F 1 "10k" H 3370 2605 50  0000 L CNN
+F 2 "" V 3230 2650 50  0001 C CNN
+F 3 "~" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7800 4100 7850 4100
-Connection ~ 7850 4100
-Text GLabel 7800 4400 0    50   Input ~ 0
-TXD
+	3300 2800 3300 3050
+Connection ~ 3300 3050
 Wire Wire Line
-	7800 4400 7850 4400
-Connection ~ 7850 4400
-Text GLabel 8200 2700 0    50   Input ~ 0
-TX
-Text GLabel 8200 2800 0    50   Input ~ 0
-RX
-Wire Wire Line
-	8200 2700 8250 2700
-Wire Wire Line
-	8250 2800 8200 2800
-Text GLabel 8300 4100 2    50   Input ~ 0
-TX
-Text GLabel 8300 4400 2    50   Input ~ 0
-RX
-Wire Wire Line
-	8300 4100 8250 4100
-Wire Wire Line
-	8250 4400 8300 4400
-Text GLabel 9250 2800 2    50   Input ~ 0
-RTS
-Text GLabel 9250 2900 2    50   Input ~ 0
-DTR
-Wire Wire Line
-	9250 2800 9150 2800
-Wire Wire Line
-	9150 2900 9250 2900
-Text GLabel 8700 3650 0    50   Input ~ 0
-DTR
-Wire Wire Line
-	8700 3650 8800 3650
-Text GLabel 8700 4150 0    50   Input ~ 0
-RTS
-Wire Wire Line
-	8700 4150 8750 4150
-Text GLabel 9550 3450 2    50   Input ~ 0
-EN
-Wire Wire Line
-	9550 3450 9400 3450
-Text GLabel 9550 4350 2    50   Input ~ 0
-IO0
-Wire Wire Line
-	9550 4350 9400 4350
-Text GLabel 8200 2900 0    50   Input ~ 0
+	3300 3050 3250 3050
+Text GLabel 3150 2500 0    50   Input ~ 0
 +3.3V
 Wire Wire Line
-	8200 2900 8250 2900
-Text GLabel 9600 2550 1    50   Input ~ 0
-+3.3V
-Wire Wire Line
-	9600 2550 9600 2600
-Connection ~ 9600 2600
+	3150 2500 3300 2500
 $EndSCHEMATC
